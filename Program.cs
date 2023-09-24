@@ -213,3 +213,38 @@
 //Console.WriteLine(result); // return
 
 #endregion 14. Longest Common Prefix
+
+
+#region 4. Median of Two Sorted Arrays
+
+//var list1 = new List<int> { 1, 2, 4 };
+//var list2 = new List<int> { 1, 3, 4 };
+
+//var result = new List<int>();
+
+//foreach (var item in list1)
+//    result.Add(item);
+
+//foreach (var item in list2)
+//    result.Add(item);
+
+//result.Sort();
+
+// if (result.Count %2 == 0)
+//{
+//    Console.WriteLine("чет");
+//    float x = ((float)result[(result.Count / 2) - 1] + (float)result[result.Count / 2]) / 2;
+//    Console.WriteLine($"return {x}");   //return
+//}
+//else
+//{
+//    Console.WriteLine("нечет");
+//    double x = (result[result.Count / 2]);
+//    Console.WriteLine($"return {x}");   //return
+//}
+
+//foreach (var item in result)
+//    Console.WriteLine(item); 
+
+#endregion 4. Median of Two Sorted Arrays
+
