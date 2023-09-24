@@ -306,3 +306,53 @@
 //Console.WriteLine(list.Count);  // return
 
 #endregion 27. Remove Element
+
+#region 28. Find the Index of the First Occurrence in a String
+
+
+//if (haystack.Length < needle.Length) //return -1;     //return
+
+//using System.Data.SqlTypes;
+
+//string haystack = "mississippi";
+//string needle = "issip";
+
+//---------------------------------------------- old
+
+//int temp = -1;
+//int index = 0;
+//bool Check = false;
+//int counter = 0;
+//foreach (char c in haystack)
+//{
+//    temp++;
+//    if (counter < needle.Length)
+//    {
+//        if (c == needle[counter])
+//        {
+//            if (!Check)
+//                index = temp;
+//            Check = true;
+//            counter++;
+//        }
+//        else
+//        {
+//            counter = 0;
+//            Check = false;
+//        }
+//    }
+//    else { Check = true; break; }
+//}
+
+//if (Check)
+//    Console.WriteLine(index);
+//else 
+//    Console.WriteLine("-1");
+
+//---------------------------------------------- old
+
+//int temporary = haystack.IndexOf(needle);
+//Console.WriteLine(temporary);    // return
+
+
+#endregion 28. Find the Index of the First Occurrence in a String
