@@ -169,3 +169,47 @@
 //Console.WriteLine(temp);
 
 #endregion 13. Roman to Integer
+
+#region 14. Longest Common Prefix
+//string[] strs = { "ab", "a" };
+//Array.Sort(strs);
+//int count = strs[0].Length;
+//string temporary = string.Empty;
+//string result = string.Empty;
+
+//bool Check = true;
+
+//if (strs.Length == 0) Console.WriteLine($"break + {result}"); // return
+
+//for (int i = 0; i < count; i++)
+//{
+//    string str = strs[0];
+//    char temp = str[0];
+//    {
+//        foreach (string x in strs)
+//        {
+//            if (temp == x[0])
+//                continue;
+//            else
+//            {
+//                Check = false;
+//                Console.WriteLine($"break + {result}"); // return
+//            }
+//        }
+//        if (Check)
+//        {
+//            result += temp;
+//            for (int j = 0; j < strs.Length; j++)
+//            {
+//                temporary = strs[j];
+//                temporary = temporary.Substring(1);
+//                strs[j] = temporary;
+//            }
+
+//        }
+//    }
+//}
+
+//Console.WriteLine(result); // return
+
+#endregion 14. Longest Common Prefix
