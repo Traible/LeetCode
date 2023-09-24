@@ -286,7 +286,23 @@
 //for (int i = 0; i < list.Count; i++)
 //    nums[i] = list[i];
 
-//Console.WriteLine($"k   " + nums.Length);
+//Console.WriteLine($"k   " + nums.Length); // return
 
 #endregion 26. Remove Duplicates from Sorted Array
 
+#region 27. Remove Element
+
+//int[] nums = { 0, 1, 2, 2, 3, 0, 4, 2 };
+//int val = 2;
+
+//var list = new List<int>();
+
+//foreach (int x in nums)
+//    if (x != val) list.Add(x);
+
+//for (int i = 0; i < list.Count; i++)
+//    nums[i] = list[i];
+
+//Console.WriteLine(list.Count);  // return
+
+#endregion 27. Remove Element
