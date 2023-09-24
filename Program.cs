@@ -248,3 +248,45 @@
 
 #endregion 4. Median of Two Sorted Arrays
 
+#region 20. Valid Parentheses (не закончил)
+
+//string s = "()[]{}";
+
+//int check1left = 0;
+//int check1right = 0;
+//int check2left = 0;
+//int check2right = 0;
+//int check3left = 0;
+//int check3right = 0;
+
+//foreach (char item in s)
+//{
+//    if (item == '(') { check1left++; continue; }
+//    if (item == ')') { check1right++; continue; }
+//    if (item == '[') { check2left++; continue; }
+//    if (item == ']') { check2right++; continue; }
+//    if (item == '{') { check1left++; continue; }
+//    if (item == '}') { check1right++; continue; }
+//}
+
+//if (check1left == check1right && check2left == check2right && check3left == check3right) Console.WriteLine("true");
+//else Console.WriteLine("false");
+
+#endregion
+
+#region 26. Remove Duplicates from Sorted Array
+//int[] nums = { 1, 1, 2 };
+//var list = new List<int>();
+//list.Add(nums[0]);
+
+//foreach (int i in nums)
+//    if (i != list[list.Count - 1])
+//        list.Add(i);
+
+//for (int i = 0; i < list.Count; i++)
+//    nums[i] = list[i];
+
+//Console.WriteLine($"k   " + nums.Length);
+
+#endregion 26. Remove Duplicates from Sorted Array
+
