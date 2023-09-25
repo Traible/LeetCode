@@ -214,7 +214,6 @@
 
 #endregion 14. Longest Common Prefix
 
-
 #region 4. Median of Two Sorted Arrays
 
 //var list1 = new List<int> { 1, 2, 4 };
@@ -312,12 +311,12 @@
 
 //if (haystack.Length < needle.Length) //return -1;     //return
 
-//using System.Data.SqlTypes;
+//    using System.Data.SqlTypes;
 
 //string haystack = "mississippi";
 //string needle = "issip";
 
-//---------------------------------------------- old
+//----------------------------------------------old
 
 //int temp = -1;
 //int index = 0;
@@ -325,29 +324,29 @@
 //int counter = 0;
 //foreach (char c in haystack)
 //{
-//    temp++;
-//    if (counter < needle.Length)
-//    {
-//        if (c == needle[counter])
-//        {
-//            if (!Check)
-//                index = temp;
-//            Check = true;
-//            counter++;
-//        }
-//        else
-//        {
-//            counter = 0;
-//            Check = false;
-//        }
-//    }
-//    else { Check = true; break; }
+//temp++;
+//if (counter < needle.Length)
+//{
+//if (c == needle[counter])
+//{
+//if (!Check)
+//index = temp;
+//Check = true;
+//counter++;
+//}
+//else
+//{
+//counter = 0;
+//Check = false;
+//}
+//}
+//else { Check = true; break; }
 //}
 
 //if (Check)
-//    Console.WriteLine(index);
-//else 
-//    Console.WriteLine("-1");
+//Console.WriteLine(index);
+//else
+//Console.WriteLine("-1");
 
 //---------------------------------------------- old
 
@@ -356,3 +355,67 @@
 
 
 #endregion 28. Find the Index of the First Occurrence in a String
+
+#region 3. Longest Substring Without Repeating Characters
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+// ---------------------------------------------- old
+//foreach (char c in s)
+//{
+//    foreach (char c2 in max)
+//        if (c2 == c)
+//        {
+//            temporary.Add(max.Length);
+//            max = string.Empty;
+//        }
+//    max += c;
+//    if (max.Length == s.Length)
+//        temporary.Add(max.Length);
+//}
+//temporary.Sort();
+//if (max.Length > temporary[temporary.Count - 1])
+//    temporary.Add(max.Length);
+// ---------------------------------------------- old
+
+//string input = "pwwkew";
+//string max = string.Empty;
+//int result = 0;
+//bool check = false;
+
+//while (input != string.Empty)
+//{
+//    foreach (char ci in input)
+//    {
+//        if (max == string.Empty && input != string.Empty) 
+//        {
+//            max += input[0];
+//            continue;
+//        }
+            
+//        foreach (char cm in max)
+//        {
+//            if (ci == cm)
+//            {
+//                if (max.Length > result)
+//                    result = max.Length;
+//                max = string.Empty;
+//                input = input.Substring(1);
+//                check = true;
+//            }
+//        }
+//        if (check) 
+//        { 
+//            check = false;
+//            break;
+//        }
+//        if (max != string.Empty && max[max.Length - 1] != ci && input != string.Empty)
+//        { 
+//            max += ci;
+//            continue; 
+//        }
+//    }
+//}
+
+//Console.WriteLine(result);   //  return
+
+#endregion 3. Longest Substring Without Repeating Characters
