@@ -391,7 +391,7 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //            max += input[0];
 //            continue;
 //        }
-            
+
 //        foreach (char cm in max)
 //        {
 //            if (ci == cm)
@@ -419,3 +419,21 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //Console.WriteLine(result);   //  return
 
 #endregion 3. Longest Substring Without Repeating Characters
+
+#region 389. Find the Difference
+
+//string a = "abcd";
+//string b = "abcde";
+
+//int x = 0;
+//int y = 0;
+
+//foreach (char c in a)
+//    x += (int)c;
+
+//foreach (char c in b)
+//    y += (int)c;
+
+//Console.WriteLine((char)Math.Abs(x - y));   // return
+
+#endregion 389. Find the Difference
