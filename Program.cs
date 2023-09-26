@@ -483,8 +483,30 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 #endregion 58. Length of Last Word
 
 #region 69. Sqrt(x)
+
 //int x = 8;
 //double temp = Math.Sqrt(x);
 //double result = temp - temp % 1;
 //return (int)result;
+
 #endregion 69. Sqrt(x)
+
+#region 70. Climbing Stairs
+
+//int n = 10;
+////if (n == 1) return 1;
+////if (n == 2) return 2;
+//var temporary = new List<int>();
+
+//temporary.Add(1);
+
+//if (n > 2) 
+//{
+//    temporary.Add(1);
+//    for (int i = 1; i < n; i++)
+//        temporary.Add(temporary[i] + temporary[i - 1]);
+//}
+
+//Console.WriteLine(temporary[n]);  //  return;
+
+#endregion 70. Climbing Stairs
