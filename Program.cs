@@ -450,3 +450,32 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //return nums.Length;
 
 #endregion 35. Search Insert Position
+
+#region 58. Length of Last Word
+
+//string s = "   fly me   to   the moon  ";
+//var temporary = new List <char>();
+//int counter = 0;
+
+//foreach (char item in s)
+//    temporary.Add(item);
+//temporary.Reverse();
+
+//while (true)
+//{
+//    if (temporary[0] == ' ')
+//        temporary.RemoveAt(0);
+//    else
+//        break;
+//}
+
+//foreach (char item in temporary)
+//    if (item != ' ')
+//        counter++;
+//    else 
+//        break;
+
+//Console.WriteLine(counter);
+//return counter;
+
+#endregion 58. Length of Last Word
