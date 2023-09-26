@@ -510,3 +510,26 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //Console.WriteLine(temporary[n]);  //  return;
 
 #endregion 70. Climbing Stairs
+
+#region 88. Merge Sorted Array
+
+//int[] nums1 = { -1, 0, 0, 3, 3, 3, 0, 0, 0 };
+//int[] nums2 = { 1, 2, 2 };
+////int index = 0;
+//// if (n == 0) return;
+//var temporary = new List<int>();
+//foreach (int item in nums2)
+//    if (item != 0) 
+//        temporary.Add(item);
+
+//Array.Reverse(nums1);
+
+//for (int i = 0; i < temporary.Count; i++)
+//{
+//    nums1[i] = temporary[i];
+//}
+
+//Array.Sort(nums1);
+////return;
+
+#endregion 88. Merge Sorted Array
