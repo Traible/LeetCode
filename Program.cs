@@ -437,3 +437,16 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //Console.WriteLine((char)Math.Abs(x - y));   // return
 
 #endregion 389. Find the Difference
+
+#region 35. Search Insert Position
+
+////Input: nums = [1,3,5,6], target = 5 
+
+//for (int i = 0; i < nums.Length; i++)
+//{
+//    if (nums[i] < target) continue;
+//    if (nums[i] >= target) return i;
+//}
+//return nums.Length;
+
+#endregion 35. Search Insert Position
