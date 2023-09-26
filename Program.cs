@@ -357,6 +357,8 @@
 #endregion 28. Find the Index of the First Occurrence in a String
 
 #region 3. Longest Substring Without Repeating Characters
+using System.Net.Http.Headers;
+
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 // ---------------------------------------------- old
@@ -479,3 +481,10 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //return counter;
 
 #endregion 58. Length of Last Word
+
+#region 69. Sqrt(x)
+//int x = 8;
+//double temp = Math.Sqrt(x);
+//double result = temp - temp % 1;
+//return (int)result;
+#endregion 69. Sqrt(x)
