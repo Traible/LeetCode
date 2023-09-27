@@ -358,6 +358,7 @@
 #endregion 28. Find the Index of the First Occurrence in a String
 
 #region 3. Longest Substring Without Repeating Characters
+using System;
 using System.Net.Http.Headers;
 
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -600,4 +601,38 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 # endregion 880. Decoded String at Index "Why is everyone saying it's difficult. Seems pretty easy" runs code - TLE...... OH I see
 
+#region 7. Reverse Integer
 
+//int x = -1534236469;
+//var temporary = new List<int>();
+//Int64 check = 2147483647;
+//Int64 max = 2147483647;
+//Int64 min = -2147483648;
+//string tempstring = x.ToString();
+//if (x < 0)
+//{
+//    tempstring = tempstring.Substring(1);
+//}
+
+//foreach (int i in tempstring)
+//    temporary.Add(i - 48);
+
+//temporary.Reverse();
+
+//tempstring = string.Empty;
+//foreach (int i in temporary)
+//    tempstring += i;
+
+//if (x < 0)
+//    check = -1 * Convert.ToInt64(tempstring);
+//else
+//    check = Convert.ToInt64(tempstring);
+
+//if (max < check || check < min)
+//    return 0;
+//else if (x < 0)
+//    return -1 * Convert.ToInt32(tempstring);
+//else
+//    return Convert.ToInt32(tempstring);
+
+#endregion 7. Reverse Integer
