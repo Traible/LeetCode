@@ -533,3 +533,32 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 ////return;
 
 #endregion 88. Merge Sorted Array
+
+#region 66. Plus One
+
+//int[] digits = { 9, 9, 9, 9 };
+//var temporary = new List<int>();
+//foreach (var item in digits)
+//    temporary.Add(item);
+//temporary.Reverse();
+//temporary[0] += 1;
+
+//for (int i = 0; i < temporary.Count; i++)
+//{
+//    if (temporary[i] == 10 && i < temporary.Count - 1)
+//    {
+//        temporary[i] = 0;
+//        temporary[i + 1] += 1;
+//        continue;
+//    }
+//    if (temporary[i] == 10 && i == temporary.Count - 1)
+//    {
+//        temporary[i] = 0;
+//        temporary.Add(1);
+//    }
+
+//}
+//temporary.Reverse();
+//digits = temporary.ToArray();
+
+#endregion 66. Plus One
