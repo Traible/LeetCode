@@ -247,6 +247,7 @@
 
 #endregion 4. Median of Two Sorted Arrays
 
+// Attempted
 #region 20. Valid Parentheses (не закончил)
 
 //string s = "()[]{}";
@@ -563,6 +564,7 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 #endregion 66. Plus One
 
+// Attempted
 #region 880. Decoded String at Index "Why is everyone saying it's difficult. Seems pretty easy" runs code - TLE...... OH I see
 
 //string s = "yyuele72uthzyoeut7oyku2yqmghy5luy9qguc28ukav7an6a2bvizhph35t86qicv4gyeo6av7gerovv5lnw47954bsv2xruaej";
@@ -597,3 +599,5 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //}
 
 # endregion 880. Decoded String at Index "Why is everyone saying it's difficult. Seems pretty easy" runs code - TLE...... OH I see
+
+
