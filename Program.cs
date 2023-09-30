@@ -600,7 +600,7 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //        break;  // return
 //}
 
-# endregion 880. Decoded String at Index "Why is everyone saying it's difficult. Seems pretty easy" runs code - TLE...... OH I see
+#endregion 880. Decoded String at Index "Why is everyone saying it's difficult. Seems pretty easy" runs code - TLE...... OH I see
 
 #region 125. Valid Palindrome
 //string s = "A man, a plan, a canal: Panama";
@@ -619,3 +619,29 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //else
 //    Console.WriteLine("false"); // return false;
 #endregion 125. Valid Palindrome
+
+#region 169. Majority Element
+//Array.Sort(nums);
+//int temp = nums[0];
+//int counter = 0;
+//foreach (var item in nums)
+//{
+//    if (counter - 1 >= nums.Length / 2)
+//        break;
+//    if (temp == item)
+//    {
+//        counter++;
+//    }
+//    else
+//    {
+//        counter = 1;
+//        temp = item;
+//    }
+//}
+//// return temp;
+
+////return nums.OrderBy(x => x).ToList()[nums.Length / 2];
+////return nums.OrderBy(x => x).Skip(nums.Length / 2).Take(1).First();
+////int ReturnMostFoundItem1(int[] array) => array.OrderBy(x => x).ToList()[array.Length / 2];
+////int ReturnMostFoundItem2(int[] array) { return array.OrderBy(x => x).ToList()[array.Length / 2]; }
+#endregion 169. Majority Element
