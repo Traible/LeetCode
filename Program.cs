@@ -647,3 +647,28 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 ////int ReturnMostFoundItem2(int[] array) { return array.OrderBy(x => x).ToList()[array.Length / 2]; }
 #endregion 169. Majority Element
 
+#region 190. Reverse Bits
+
+/// <summary>
+/// 190. Reverse Bits
+///Easy
+///Topics
+///Companies
+///Reverse bits of a given 32 bits unsigned integer.
+///Note:
+///Note that in some languages, such as Java, there is no unsigned integer type. In this case, both input and output will be given as a signed integer type. They should not affect your implementation, as the integer's internal binary representation is the same, whether it is signed or unsigned.
+///In Java, the compiler represents the signed integers using 2's complement notation. Therefore, in Example 2 above, the input represents the signed integer -3 and the output represents the signed integer -1073741825.
+/// </summary> 
+
+//uint n = 43261596;
+//uint result = 0;
+//string temporary = Convert.ToString(n, 2);
+//int delta = 32 - temporary.Length;
+//for (int i = 0; i < temporary.Length; i++)
+//{
+//    if (temporary[i] == '1')
+//        result += Convert.ToUInt32(Math.Pow(2, i + delta));
+//}
+//Console.WriteLine(result); //return result;
+#endregion 190. Reverse Bits
+
