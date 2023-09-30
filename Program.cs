@@ -670,5 +670,14 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //        result += Convert.ToUInt32(Math.Pow(2, i + delta));
 //}
 //Console.WriteLine(result); //return result;
+
+//
+//var temporary = Convert.ToString(n, 2).Select(x => (x == '1')?true:false);
+//int delta = 32 - temporary.Count();
+//foreach (var item in temporary.Select((x, i) => new { x, i }))
+//    if (item.x)
+//        result += Convert.ToUInt32(Math.Pow(2, item.i + delta));
+//
+
 #endregion 190. Reverse Bits
 
