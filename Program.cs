@@ -624,9 +624,10 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //Array.Sort(nums);
 //int temp = nums[0];
 //int counter = 0;
+//float temporary = nums.Length / 2;
 //foreach (var item in nums)
 //{
-//    if (counter - 1 >= nums.Length / 2)
+//    if (counter - 1 >= temporary)
 //        break;
 //    if (temp == item)
 //    {
@@ -638,10 +639,11 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //        temp = item;
 //    }
 //}
-//// return temp;
+// return temp;
 
 ////return nums.OrderBy(x => x).ToList()[nums.Length / 2];
 ////return nums.OrderBy(x => x).Skip(nums.Length / 2).Take(1).First();
 ////int ReturnMostFoundItem1(int[] array) => array.OrderBy(x => x).ToList()[array.Length / 2];
 ////int ReturnMostFoundItem2(int[] array) { return array.OrderBy(x => x).ToList()[array.Length / 2]; }
 #endregion 169. Majority Element
+
