@@ -681,3 +681,20 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 #endregion 190. Reverse Bits
 
+#region 1323. Maximum 69 Number
+//int num = 9669;
+//string temp = num.ToString();
+//string temporary = string.Empty;
+//bool check = false;
+//foreach (char item in temp)
+//{
+//    if (!check && item == '6')
+//    {
+//        temporary += '9';
+//        check = true;
+//    }
+//    else
+//        temporary += item;
+//}
+//return Convert.ToInt32(temporary);
+#endregion 1323. Maximum 69 Number
