@@ -698,3 +698,31 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //}
 //return Convert.ToInt32(temporary);
 #endregion 1323. Maximum 69 Number
+
+#region 492. Construct the Rectangle
+//int area = 122122;
+
+//int temp = (int)Math.Sqrt(area) + 1;
+//double result = 0;
+//int[] array = new int[2];
+//while (true)
+//{
+//    result = (double)area / temp;
+//    if (result % 1 == 0)
+//        break;
+//    else
+//        temp--;
+//}
+//if (result > temp)
+//{
+//    array[0] = (int)result;
+//    array[1] = temp;
+//}
+//else
+//{
+//    array[0] = temp;
+//    array[1] = (int)result;
+//}
+//foreach (int i in array)
+//Console.WriteLine(i);
+#endregion 492. Construct the Rectangle
