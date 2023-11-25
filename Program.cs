@@ -359,8 +359,11 @@
 
 #region 3. Longest Substring Without Repeating Characters
 using System;
+using System.Linq;
 using System.Net.Http.Headers;
 using System.Security.Cryptography;
+using System.Text;
+using static System.Net.Mime.MediaTypeNames;
 
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
@@ -566,14 +569,14 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 #endregion 66. Plus One
 
-// Attempted
+// Attempted Time Limit Exceeded
 #region 880. Decoded String at Index "Why is everyone saying it's difficult. Seems pretty easy" runs code - TLE...... OH I see
 
 //string s = "yyuele72uthzyoeut7oyku2yqmghy5luy9qguc28ukav7an6a2bvizhph35t86qicv4gyeo6av7gerovv5lnw47954bsv2xruaej";
 //int k = 123365626;
 //string temp;
 //int Check = 0;
-//var temporary = new List<char>();
+//var temporary = new List<char>(k);
 
 //foreach (var iteminstring in s)     // Захожу в строку с условием для перебора
 //{
@@ -590,7 +593,7 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //                temporary.Add(item);
 //                if (temporary.Count >= k)       // Условие выхода, чтобы не записывать лишнее
 //                    break;
-//            } 
+//            }
 //        }
 //    }
 //    else
@@ -726,3 +729,103 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //foreach (int i in array)
 //Console.WriteLine(i);
 #endregion 492. Construct the Rectangle
+
+// Attempted 2 Out of memory
+#region 880. Decoded String at Index
+
+//string s = "yyuele72uthzyoeut7oyku2yqmghy5luy9qguc28ukav7an6a2bvizhph35t86qicv4gyeo6av7gerovv5lnw47954bsv2xruaej"; int k = 123365626; // Input Data
+
+//string[] wordsTemporary = s.Split(new char[] { '1', '2', '3', '4', '5', '6', '7', '8', '9' });
+//string[] words = new string[wordsTemporary.Length];
+
+//for (int i = 0, j = 0; i < wordsTemporary.Length; i++)
+//{
+//    if (wordsTemporary[i].Length != 0)
+//    {
+//        words[j] = wordsTemporary[i];
+//        j++;
+//    }
+//}
+
+//bool previosCharIsDigit = false;
+//int temporaryMultipler = 0;
+//List<string> temporaryNumbers = new List<string>();
+
+//foreach (char c in s)
+//{
+//    if (char.IsDigit(c))
+//    {
+//        if (previosCharIsDigit == false)
+//        {
+//            previosCharIsDigit = true;
+//            temporaryMultipler = c - 48;
+//        }
+//        else
+//        {
+//            temporaryMultipler *= c - 48;
+//        }
+//    }
+//    else
+//    {
+//        if (previosCharIsDigit == true)
+//        {
+//            previosCharIsDigit = false;
+//            temporaryNumbers.Add(temporaryMultipler.ToString());
+//            temporaryMultipler = 0;
+//        }
+//    }
+//}
+//if (temporaryMultipler != 0)
+//{
+//    temporaryNumbers.Add(temporaryMultipler.ToString());
+//}
+
+//int[] numbers = new int[temporaryNumbers.Count];
+
+//for (int i = 0; i < temporaryNumbers.Count; i++)
+//{
+//    numbers[i] = Int32.Parse(temporaryNumbers[i]);
+//}
+
+//StringBuilder targetString = new StringBuilder();
+//StringBuilder temporaryTargetString = new StringBuilder();
+
+//int wordIndex = 0;
+//int wordIndexChecker = -1;
+//if (numbers.Length > 0)
+//{
+//    while (true)
+//    {
+//        if (wordIndexChecker != wordIndex)
+//        {
+//            targetString.Append(words[wordIndex]);
+//            if (targetString.Length >= k)
+//            {
+//                break;
+//            }
+//            wordIndexChecker = wordIndex;
+//        }
+
+//        temporaryTargetString.Clear();
+//        temporaryTargetString.Append(targetString);
+
+//        for (int i = 1; i <= numbers[wordIndex] - 1; i++)
+//        {
+//            targetString.Append(temporaryTargetString);
+//            if (targetString.Length >= k)
+//            {
+//                break;
+//            }
+//        }
+//        wordIndex++;
+//    }
+//}
+//else
+//{
+//    Console.WriteLine(s[k - 1]);
+//}
+
+//Console.WriteLine(targetString[k - 1]);
+
+
+#endregion 880. Decoded String at Index
