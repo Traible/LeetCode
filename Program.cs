@@ -363,6 +363,7 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 using static System.Net.Mime.MediaTypeNames;
 
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -727,7 +728,7 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //    array[1] = (int)result;
 //}
 //foreach (int i in array)
-//Console.WriteLine(i);
+//    Console.WriteLine(i);
 #endregion 492. Construct the Rectangle
 
 // Attempted 2 Out of memory
@@ -829,3 +830,110 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 
 #endregion 880. Decoded String at Index
+
+#region 8. String to Integer (atoi)
+
+//string s = "  +  413"; // Input
+
+//s = s.Trim();
+//bool checkTakeNumber = false;
+//var temporary = new List<int>();
+//var temp = string.Empty;
+//int checkminus = 1;
+//Int64 check = 0;
+//int result = 0;
+//int counterPlus = 0;
+//int counterMinus = 0;
+//foreach (var c in s)
+//{
+//    if (!char.IsDigit(c))
+//    {
+//        if (c == '-' && !checkTakeNumber)
+//        {
+//            counterMinus++;
+//        }
+//        else if (c == '+' && !checkTakeNumber)
+//        {
+//            counterPlus++;
+//        }
+//        else if (c == ' ' && !checkTakeNumber && counterMinus > 0 || counterPlus > 0)
+//        {
+//            break;
+//        }
+//        else if (c == ' ' && !checkTakeNumber)
+//        {
+//            continue;
+//        }
+//        else
+//        {
+//            break;
+//        }
+//    }
+//    else if (char.IsDigit(c))
+//    {
+//        checkTakeNumber = true;
+//        temporary.Add((int)char.GetNumericValue(c));
+//    }
+//    else if (checkTakeNumber)
+//    {
+//        break;
+//    }
+//}
+
+//if (counterPlus > 0 && counterPlus == counterMinus)
+//    return 0;
+//if (counterPlus > 1)
+//    return 0;
+//if (counterMinus > 1)
+//    return 0;
+
+//foreach (int c in temporary)
+//    temp += c;
+
+//foreach (var c in s)
+//    if (c == '-')
+//    {
+//        checkminus = -1;
+//        break;
+//    }
+
+//int max = 2147483647;
+//int min = -2147483648;
+
+//temp = Regex.Replace(temp, @"^0+(?=\d+$)", "");
+
+//if (temp == string.Empty)
+//{
+//    result = 0;
+//    return result;
+//}
+//else if (temp.Length <= 10)
+//{
+//    check = checkminus * Convert.ToInt64(temp);
+//}
+//else
+//{
+//    if (checkminus == -1)
+//        return min;
+//    else
+//        return max;
+//}
+
+//if (check <= min)
+//{
+//    return min;
+//}
+
+//if (check >= max)
+//{
+//    return max;
+//}
+
+//result = Convert.ToInt32(temp);
+
+//if (counterMinus > 0)
+//    return result * checkminus;
+//else
+//    return result;
+
+#endregion 8. String to Integer (atoi)
