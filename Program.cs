@@ -937,3 +937,40 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //    return result;
 
 #endregion 8. String to Integer (atoi)
+
+#region 7. Reverse Integer
+//int x = 123;
+
+//Int64 check = 2147483647;
+//Int64 max = 2147483647;
+//Int64 min = -2147483648;
+//var temporary = new List<int>();
+//string tempstring = x.ToString();
+//if (x < 0)
+//{
+//    tempstring = tempstring.Substring(1);
+//}
+
+//foreach (int i in tempstring)
+//    temporary.Add(i - 48);
+
+//temporary.Reverse();
+
+//tempstring = string.Empty;
+//foreach (int i in temporary)
+//    tempstring += i;
+
+//if (x < 0)
+//    check = -1 * Convert.ToInt64(tempstring);
+//else
+//    check = Convert.ToInt64(tempstring);
+
+//if (max < check || check < min)
+//    return 0;
+//else if (x < 0)
+//    return -1 * Convert.ToInt32(tempstring);
+//else
+//    return Convert.ToInt32(tempstring);
+
+#endregion 7. Reverse Integer
+
