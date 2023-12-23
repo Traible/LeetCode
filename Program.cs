@@ -974,3 +974,66 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 #endregion 7. Reverse Integer
 
+#region 11. Container With Most Water
+
+//int[] height = { 1, 2, 4, 3 };
+
+//int Max = 0;
+//int i = 0, j = height.Length - 1;
+
+//while (i != j)
+//{
+//    GetMax();
+
+//    if (height[i] >= height[j])
+//        while (i != j)
+//        {
+//            if (height[i] > height[j])
+//            {
+//                j--;
+//                GetMax();
+//            } 
+//            else if (height[i] == height[j])
+//            {
+//                GetMax();
+//                i++;
+//                break;
+//            }
+//            else break;
+//        }
+
+//    if (height[j] >= height[i])
+//        while (i != j)
+//        {
+//            if (height[j] > height[i])
+//            {
+//                i++;
+//                GetMax();
+//            }
+                
+//            else if (height[i] == height[j])
+//            {
+//                GetMax();
+//                j--;
+//                break;
+//            }
+//            else break;
+//        }
+//}
+//    void GetMax()
+//{
+//    if (height[i] < height[j])
+//    {
+//        if (height[i] * (j - i) > Max)
+//            Max = height[i] * (j - i);
+//    }
+//    else
+//    {
+//        if (height[j] * (j - i) > Max)
+//            Max = height[j] * (j - i);
+//    }
+//}
+
+//Console.WriteLine(Max);
+
+#endregion 11. Container With Most Water
