@@ -366,7 +366,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using static System.Net.Mime.MediaTypeNames;
 
-https://leetcode.com/problems/longest-substring-without-repeating-characters/
+// https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 // ---------------------------------------------- old
 //foreach (char c in s)
@@ -992,7 +992,7 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //            {
 //                j--;
 //                GetMax();
-//            } 
+//            }
 //            else if (height[i] == height[j])
 //            {
 //                GetMax();
@@ -1010,7 +1010,7 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //                i++;
 //                GetMax();
 //            }
-                
+
 //            else if (height[i] == height[j])
 //            {
 //                GetMax();
@@ -1020,7 +1020,7 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //            else break;
 //        }
 //}
-//    void GetMax()
+//void GetMax()
 //{
 //    if (height[i] < height[j])
 //    {
@@ -1037,3 +1037,96 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 //Console.WriteLine(Max);
 
 #endregion 11. Container With Most Water
+
+#region 10. Regular Expression Matching
+
+//string s = "mississippi", p = "mis*is*ip*.";
+//if (s.Length == 1 && s == p || p == ".") Console.WriteLine("true"); // return true;
+//if (s == p) Console.WriteLine("true"); // return true;
+//char temp = s[0];
+//bool result = true;
+//for (int i = 0, j = 0; i < s.Length; i++)
+//{
+//    if (j >= p.Length)
+//    {
+//        result = false;
+//        break;
+//    }
+//    if (p[j] == '*')
+//    {
+//        if (p[j-1] == '.')
+//        {
+//            continue;
+//        }
+//        if (s[i] == temp)
+//        {
+//            continue;
+//        }
+//        else
+//        {
+//            result = false;
+//            break;
+//        }
+//    }
+//    if (s[i] == p[j] || p[j] == '.')
+//    {
+//        temp = s[i];
+//        j++;
+//        continue;
+//    } 
+//    else
+//    {
+//        result = false;
+//        break;
+//    }
+//}
+
+//if (result) Console.WriteLine("true");
+//else Console.WriteLine("false");
+#endregion
+
+#region 29. Divide Two Integers
+//int dividend = 10, divisor = 3;
+//int result = 0;
+
+//if (dividend == 2147483647 && divisor == -1) return -2147483647;
+//if (dividend <= -2147483647 && divisor == -1) return 2147483647;
+//if (dividend >= 2147483647 && divisor == 1) return 2147483647;
+//if (dividend <= -2147483648 && divisor == 1) return -2147483648;
+
+//if (dividend > 0 && divisor > 0)
+//    while (dividend > 0)
+//    {
+//        dividend -= divisor;
+//        result++;
+//        if (result == 2147483647) return result;
+//    }
+//else if (dividend < 0 && divisor < 0)
+//    while (dividend < 0)
+//    {
+//        dividend -= divisor;
+//        result++;
+//        if (result == 2147483647) return result;
+//    }
+//else if (dividend > 0)
+//    while (dividend > 0)
+//    {
+//        dividend += divisor;
+//        result--;
+//    }
+//else if (dividend < 0)
+//    while (dividend < 0)
+//    {
+//        dividend += divisor;
+//        result--;
+//    }
+
+//if (dividend != 0)
+//    if (result > 0)
+//        result--;
+//    else
+//        result++;
+
+//return result;
+
+#endregion
