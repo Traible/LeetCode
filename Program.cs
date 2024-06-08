@@ -1147,5 +1147,38 @@ using static System.Net.Mime.MediaTypeNames;
 
 #endregion 3110. Score of a String
 
+#region 645. Set Mismatch Attempted
+//int[] nums = { 2, 2 };
+//int[] result = new int[2];
+//for(int i = 1; i < nums.Length; i++)
+//{
+//    if (nums[i] == nums[i - 1])
+//    {
+//        result[0] = nums[i];
+//        result[1] = nums[i] + 1;
+//    }
+//}
+//foreach(int i in result)
+//    Console.WriteLine(i);
+#endregion 645. Set Mismatch Attempted
+
+#region 387. First Unique Character in a String
+////string s = "leetcode";
+
+////Dictionary<char, int> charCount = new Dictionary<char, int>();
+
+////foreach (char c in s)
+////{
+////    if (charCount.ContainsKey(c))
+////        charCount[c]++;
+////    else
+////        charCount[c] = 1;
+////}
+
+////for (int i = 0; i < s.Length; i++)
+////    if (charCount[s[i]] == 1)
+////        return i;
+////return -1;
+#endregion 387. First Unique Character in a String
 
 
