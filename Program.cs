@@ -1130,3 +1130,22 @@ using static System.Net.Mime.MediaTypeNames;
 //return result;
 
 #endregion
+
+
+#region 3110. Score of a String
+
+//string s = "hello";
+//int score = 0;
+//int temp = 0;
+//for (int i = 0; i < s.Length - 1; i++)
+//    {
+//    temp = s[i] - s[i + 1];
+//    if (temp > 0) score += temp;
+//    else score -= temp;
+//    }
+//Console.WriteLine(score);
+
+#endregion 3110. Score of a String
+
+
+
