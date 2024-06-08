@@ -364,6 +364,7 @@ using System.Net.Http.Headers;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Xml.Linq;
 using static System.Net.Mime.MediaTypeNames;
 
 // https://leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -1181,4 +1182,52 @@ using static System.Net.Mime.MediaTypeNames;
 ////return -1;
 #endregion 387. First Unique Character in a String
 
+#region 3005. Count Elements With Maximum Frequency
+//int[] nums = { 1, 2, 2, 3, 1, 4 };
 
+//Dictionary<char, int> charCount = new Dictionary<char, int>();
+
+//foreach (char c in nums)
+//{
+//    if (charCount.ContainsKey(c))
+//        charCount[c]++;
+//    else
+//        charCount[c] = 1;
+//}
+
+//int check = 0;
+//int result = 0;
+
+////var sortedValues = charCount.Values.OrderByDescending(v => v);
+////foreach (int value in sortedValues)
+////{
+////    if (check == 0) 
+////    {
+////        check = value;
+////        result += value;
+////        continue;
+////    }
+////    if (check != value) break;
+////    else result += value;
+////}
+
+//List<int> temp = new List<int>();
+//foreach (int value in charCount.Values)
+//{
+//    temp.Add(value);
+//}
+//temp.Sort();
+//temp.Reverse();
+//foreach (int value in temp)
+//{
+//    if (check == 0)
+//    {
+//        check = value;
+//        result += value;
+//        continue;
+//    }
+//    if (check != value) break;
+//    else result += value;
+//}
+//Console.WriteLine(result);
+#endregion 3005.Count Elements With Maximum Frequency
