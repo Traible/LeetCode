@@ -1267,3 +1267,20 @@ using static System.Net.Mime.MediaTypeNames;
 //Console.WriteLine("true");
 
 #endregion 1207. Unique Number of Occurrences
+
+#region 268. Missing Number
+
+//int[] nums = { 9, 6, 4, 2, 3, 5, 7, 0, 1 };
+
+//Array.Sort(nums);
+//if (nums[0] != 0) return 0;
+//int temp = nums[0];
+//foreach (int number in nums)
+//{
+//    if (number == temp) continue;
+//    else if (number - temp == 2) return number - 1;
+//    else temp = number;
+//}
+//return temp + 1;
+
+#endregion 268. Missing Number
