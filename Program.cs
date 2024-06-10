@@ -1183,11 +1183,11 @@ using static System.Net.Mime.MediaTypeNames;
 #endregion 387. First Unique Character in a String
 
 #region 3005. Count Elements With Maximum Frequency
-//int[] nums = { 1, 2, 2, 3, 1, 4 };
+//int[] nums = { 6, 13, 15, 15, 11, 6, 7 , 12 , 4 , 11  };
 
-//Dictionary<char, int> charCount = new Dictionary<char, int>();
+//Dictionary<int, int> charCount = new Dictionary<int, int>();
 
-//foreach (char c in nums)
+//foreach (int c in nums)
 //{
 //    if (charCount.ContainsKey(c))
 //        charCount[c]++;
@@ -1231,3 +1231,39 @@ using static System.Net.Mime.MediaTypeNames;
 //}
 //Console.WriteLine(result);
 #endregion 3005.Count Elements With Maximum Frequency
+
+
+#region 1207. Unique Number of Occurrences
+//int[] arr = { 26, 2, 16, 16, 5, 5, 26, 2, 5, 20, 20, 5, 2, 20, 2, 2, 20, 2, 16, 20, 16, 17, 16, 2, 16, 20, 26, 16 };
+
+//Dictionary<int, int> charCount = new Dictionary<int, int>();
+
+//foreach (int c in arr)
+//{
+//    if (charCount.ContainsKey(c))
+//        charCount[c]++;
+//    else
+//        charCount[c] = 1;
+//}
+
+//int check = 0;
+
+//List<int> temp = new List<int>();
+//foreach (int value in charCount.Values)
+//{
+//    temp.Add(value);
+//}
+//temp.Sort();
+//foreach (int value in temp)
+//{
+//    if (check == 0)
+//    {
+//        check = value;
+//        continue;
+//    }
+//    if (check == value) Console.WriteLine("false");//break;
+//    else check = value;
+//}
+//Console.WriteLine("true");
+
+#endregion 1207. Unique Number of Occurrences
