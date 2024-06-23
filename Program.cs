@@ -1314,3 +1314,34 @@ using static System.Net.Mime.MediaTypeNames;
 //}
 
 #endregion
+
+#region 2441. Largest Positive Integer That Exists With Its Negative 
+//int[] nums = { -1, 2, -3, 3 };
+
+//List<int> listofnums = new List<int>();
+//listofnums = nums.ToList();
+//if (listofnums.Max() == listofnums.Min() && listofnums.Min() != listofnums.Max())
+//{
+//    Console.WriteLine(listofnums.Max()); // return 
+//}
+//listofnums.Sort();
+//int checkMinNegative = -listofnums.Max();
+
+//while (listofnums.Count != 0)
+//{
+//    if (-listofnums.Min() > listofnums.Max())
+//    {
+//        listofnums.RemoveAll(x => x == listofnums.Min());
+//        continue;
+//    }
+//    else if (-listofnums.Min() == listofnums.Max() && listofnums.Min() != listofnums.Max())
+//    {
+//        Console.WriteLine(listofnums.Max()); // return 
+//    }
+//    else
+//    {
+//        listofnums.RemoveAll(x => x == listofnums.Max());
+//    }
+//}
+//Console.WriteLine(-1); // return 
+#endregion
