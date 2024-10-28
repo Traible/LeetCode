@@ -1345,3 +1345,22 @@ using static System.Net.Mime.MediaTypeNames;
 //}
 //Console.WriteLine(-1); // return 
 #endregion
+
+#region 
+
+//int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+
+////if (nums.Length == 1) return nums[0];
+
+//int max_temp = nums[0];
+//int Max = nums[0];
+
+//for (int i = 1; i < nums.Length; i++)
+//{
+//    max_temp = Math.Max(max_temp + nums[i], nums[i]);
+//    if (max_temp > Max)
+//        Max = max_temp;
+//}
+//return Max;
+
+#endregion
